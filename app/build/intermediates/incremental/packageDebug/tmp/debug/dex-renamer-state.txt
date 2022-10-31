@@ -1,0 +1,4 @@
+#Mon Oct 31 20:38:24 IST 2022
+base.0=C\:\\Users\\HP\\Desktop\\Android-Attendance-App-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

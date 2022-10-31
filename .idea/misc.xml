@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/drawable-hdpi/roundedbutton.xml" value="0.2555" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/drawable-hdpi/roundedtextview.xml" value="0.2" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/drawable/roundbutton.xml" value="0.2" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/__listview_main.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/add_attandance.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/add_student_attendance.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/addfaculty.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/addstudent.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/listview_main.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/menu.xml" value="0.144" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/test_layout.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/test_main.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/view_attendance_list.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/view_attendance_list_per_student.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/view_faculty_list.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/view_student_list.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/Android-Attendance-App-master/app/src/main/res/layout/viewstudent.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

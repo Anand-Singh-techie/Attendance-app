@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:7:5-72:19
+12        android:name="com.android.attendance.context.ApplicationContext"
+12-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:8:10-74
+13        android:allowBackup="true"
+13-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:9:9-35
+14        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+14-->[com.android.support:support-compat:28.0.0] C:\Users\HP\.gradle\caches\transforms-3\9e531ed48fff4ec0bab341ce146590e4\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+15        android:debuggable="true"
+16        android:icon="@drawable/teacher"
+16-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:10:9-41
+17        android:label="@string/app_name"
+17-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:11:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:12:9-40
+20        <activity
+20-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:13:9-22:20
+21            android:name="com.android.attendance.activity.MainActivity"
+21-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:14:13-72
+22            android:exported="true"
+22-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:16:13-36
+23            android:label="@string/app_name" >
+23-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:15:13-45
+24            <intent-filter>
+24-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:17:13-21:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:17-69
+25-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:20:17-77
+27-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:20:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:23:10-26:20
+31            android:name="com.android.attendance.activity.LoginActivity"
+31-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:24:13-73
+32            android:label="@string/app_name" >
+32-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:25:13-45
+33        </activity>
+34        <activity
+34-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:27:10-30:20
+35            android:name="com.android.attendance.activity.MenuActivity"
+35-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:28:13-72
+36            android:label="@string/app_name" >
+36-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:29:13-45
+37        </activity>
+38        <activity
+38-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:31:10-34:20
+39            android:name="com.android.attendance.activity.AddFacultyActivity"
+39-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:32:13-78
+40            android:label="@string/app_name" >
+40-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:33:13-45
+41        </activity>
+42        <activity
+42-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:35:9-38:20
+43            android:name="com.android.attendance.activity.AddStudentActivity"
+43-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:36:13-78
+44            android:label="@string/app_name" >
+44-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:37:13-45
+45        </activity>
+46        <activity
+46-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:39:9-42:20
+47            android:name="com.android.attendance.activity.ViewFacultyActivity"
+47-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:40:13-79
+48            android:label="@string/app_name" >
+48-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:41:13-45
+49        </activity>
+50        <activity
+50-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:43:9-46:20
+51            android:name="com.android.attendance.activity.ViewStudentActivity"
+51-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:44:13-79
+52            android:label="@string/app_name" >
+52-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:45:13-45
+53        </activity>
+54        <activity
+54-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:47:9-50:20
+55            android:name="com.android.attendance.activity.TestActivity"
+55-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:48:13-72
+56            android:label="@string/app_name" >
+56-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:49:13-45
+57        </activity>
+58        <activity
+58-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:51:10-54:20
+59            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+59-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:52:13-83
+60            android:label="@string/app_name" >
+60-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:53:13-45
+61        </activity>
+62        <activity
+62-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:55:11-58:20
+63            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+63-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:56:13-88
+64            android:label="@string/app_name" >
+64-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:57:13-45
+65        </activity>
+66        <activity
+66-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:59:10-62:20
+67            android:name="com.android.attendance.activity.AddAttendanceActivity"
+67-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:60:13-81
+68            android:label="@string/app_name" >
+68-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:61:13-45
+69        </activity>
+70        <activity
+70-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:63:10-66:20
+71            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+71-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:64:13-91
+72            android:label="@string/app_name" >
+72-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:65:13-45
+73        </activity>
+74        <activity
+74-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:67:10-70:20
+75            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+75-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:68:13-92
+76            android:label="@string/app_name" >
+76-->C:\Users\HP\Desktop\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:69:13-45
+77        </activity>
+78    </application>
+79
+80</manifest>
