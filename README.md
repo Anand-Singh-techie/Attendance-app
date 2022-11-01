@@ -1,17 +1,9 @@
 # Android-Attendance-App
 
 
-
-See Demo Here - https://projectworlds.in/android-projects-with-source-code/android-attendance-system-app-source-code/
-
-More Project
-
-Youtube Channel Link :https://www.youtube.com/channel/UCFMkpvtYjSAPXUPjImQK7bg?sub_confirmation=1
-
-
 Android is the ideal platform for developing such an application due to the wide variety of devices it supports.
 
-android developer, Java, Android Studio, Xml ·
+Android developer, Java, Android Studio, Xml ·
 It is a system developed in android studio through which
 faculty can register the number of students in a particular
 class then register the number of subjects in that class and can mark the attendance of the students.
